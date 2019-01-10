@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id = "mathIml" class="spring.aop.xml.MathIml"/>
+
+    <!--配置切面的bean-->
+    <bean id="loginAop" class="spring.aop.xml.LoginAop"/>
+    <bean id = "validaitionAspect" class="spring.aop.xml.ValidaitionAspect"/>
+
+    <!--配置aop-->
+    <aop:config>
+        <!--配置切点表达式-->
+        <aop:pointcut id ="pointCut" expression="execution(* spring.aop.xml.MathCal.*(int ,int ))"/>
+        <!--配置切面及表达式-->
+        <aop:aspect ref="loginAop" order="1">
+            <aop:before method="beforeMethod" pointcut-ref="pointCut"/>
+            <aop:after method="afterMethod" pointcut-ref="pointCut"/>
+            <aop:after-throwing method="afterThrowing" pointcut-ref="pointCut" throwing="e"/>
+        </aop:aspect>
+        <aop:aspect ref="validaitionAspect" order="2">
+            <aop:before method="validationArgs" pointcut-ref="pointCut"/>
+        </aop:aspect>
+    </aop:config>
+</beans>

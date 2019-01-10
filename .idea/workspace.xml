@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0a6f398-9828-42f0-9181-cfe404b444b0" name="Default" comment="" />
+    <list default="true" id="e0a6f398-9828-42f0-9181-cfe404b444b0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/aop/ValidaitionAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/aop/xml/LoginAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/aop/xml/MathCal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/aop/xml/MathIml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/aop/xml/ValidaitionAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/aop/xml/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/beans-aop-pointcut.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HMAC_SHA1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/aop/LoginAop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/aop/LoginAop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/aop/MathCal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/aop/MathCal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/aop/MathIml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/aop/MathIml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/aop/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/aop/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/aop/LoginAop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/aop/LoginAop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/aop/MathCal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/aop/MathCal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/aop/MathIml.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/aop/MathIml.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/aop/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/aop/test.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,38 +33,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="beans-property.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/beans-property.xml">
+      <file leaf-file-name="beans-aop-pointcut.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/beans-aop-pointcut.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="375">
+              <caret line="24" column="17" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="24" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <file leaf-file-name="test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/xml/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="133" selection-start-line="3" selection-start-column="133" selection-end-line="3" selection-end-column="133" />
+            <state relative-caret-position="350">
+              <caret line="16" column="57" lean-forward="true" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="MathCal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/xml/MathCal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+            <state relative-caret-position="125">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestProperty.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/spring/property/TestProperty.java">
+      <file leaf-file-name="LoginAop.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/xml/LoginAop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            <state relative-caret-position="750">
+              <caret line="35" column="63" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidaitionAspect.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/xml/ValidaitionAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MathIml.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/xml/MathIml.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-25">
+              <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginAop.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/LoginAop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="16" column="57" lean-forward="true" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,50 +114,8 @@
       <file leaf-file-name="MathCal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/MathCal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MathIml.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/MathIml.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginAop.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/LoginAop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JoinPoint.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m2/repository/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2.jar!/org/aspectj/lang/JoinPoint.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="36" column="13" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="13" />
+            <state relative-caret-position="50">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -106,8 +123,8 @@
       <file leaf-file-name="beans-aop.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/beans-aop.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="275">
+              <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -118,10 +135,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -137,12 +157,24 @@
         <option value="$PROJECT_DIR$/src/main/java/spring/data/db.properties" />
         <option value="$PROJECT_DIR$/src/main/java/spring/property/TestProperty.java" />
         <option value="$PROJECT_DIR$/src/main/resources/beans-property.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/spring/aop/MathCal.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/beans-aop.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/HMAC_SHA1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/VlidaitionAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/ValidaitionAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/xml/ValidaitionAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/xml/LoginAop.java" />
         <option value="$PROJECT_DIR$/src/main/java/spring/aop/MathIml.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/MathCal.java" />
         <option value="$PROJECT_DIR$/src/main/java/spring/aop/test.java" />
         <option value="$PROJECT_DIR$/src/main/java/spring/aop/LoginAop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aopxml/MathCal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aopxml/MathIml.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aopxml/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/xml/MathCal.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/beans-aop-pointcut.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/xml/MathIml.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spring/aop/xml/test.java" />
       </list>
     </option>
   </component>
@@ -159,12 +191,13 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="213" />
     <option name="y" value="145" />
     <option name="width" value="1524" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -219,6 +252,16 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -241,7 +284,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\myself\spring\test\src\main\java\spring\aop\xml" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\myself\spring\test\src\test\java" />
       <recent name="E:\workspace\myself\spring\test\src\main\resources" />
       <recent name="E:\workspace\myself\spring\test\src" />
     </key>
@@ -258,23 +305,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.test.testAop">
+  <component name="RunManager" selected="JUnit.test (1)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="TestProperty.testProperty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HMAC_SHA1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spring.property.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="spring.property" />
-      <option name="MAIN_CLASS_NAME" value="spring.property.TestProperty" />
-      <option name="METHOD_NAME" value="testProperty" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HMAC_SHA1" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -290,6 +331,29 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spring.aop.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="spring.aop.xml" />
+      <option name="MAIN_CLASS_NAME" value="spring.aop.xml.test" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -324,6 +388,52 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spring.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="spring.aop.xml" />
+      <option name="MAIN_CLASS_NAME" value="spring.xml.test" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="test.testAop (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spring.aop.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="spring.aop.xml" />
+      <option name="MAIN_CLASS_NAME" value="spring.aop.xml.test" />
+      <option name="METHOD_NAME" value="testAop" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="test.testAop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
@@ -336,6 +446,52 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="spring.aop" />
       <option name="MAIN_CLASS_NAME" value="spring.aop.test" />
+      <option name="METHOD_NAME" value="testAop" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="test.testAop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spring.aopxml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="spring.aop.xml" />
+      <option name="MAIN_CLASS_NAME" value="spring.xml.test" />
+      <option name="METHOD_NAME" value="testAop" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="test.testAop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spring.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="spring.aopxml" />
+      <option name="MAIN_CLASS_NAME" value="spring.aopxml.test" />
       <option name="METHOD_NAME" value="testAop" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -370,15 +526,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestProperty.testProperty" />
       <item itemvalue="JUnit.test.testAop" />
       <item itemvalue="JUnit.test" />
+      <item itemvalue="JUnit.HMAC_SHA1.test" />
+      <item itemvalue="JUnit.test.testAop (1)" />
+      <item itemvalue="JUnit.test (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.test (1)" />
+        <item itemvalue="JUnit.test.testAop (1)" />
+        <item itemvalue="JUnit.test.testAop (1)" />
         <item itemvalue="JUnit.test.testAop" />
         <item itemvalue="JUnit.test" />
-        <item itemvalue="JUnit.TestProperty.testProperty" />
       </list>
     </recent_temporary>
   </component>
@@ -393,62 +553,64 @@
       <option name="presentableId" value="Default" />
       <updated>1545384552157</updated>
       <workItem from="1545384554595" duration="6113000" />
-      <workItem from="1545874644705" duration="12881000" />
+      <workItem from="1545874644705" duration="31195000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_testAop - 2019.01.04 at 15h 46m 51s.xml">
-      <configuration name="test.testAop" configurationId="JUnit" />
+    <history-entry file="test_testAop_(1) - 2019.01.09 at 20h 56m 53s.xml">
+      <configuration name="test.testAop (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testAop - 2019.01.04 at 15h 50m 32s.xml">
-      <configuration name="test.testAop" configurationId="JUnit" />
+    <history-entry file="test_testAop_(1) - 2019.01.09 at 21h 03m 17s.xml">
+      <configuration name="test.testAop (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testAop - 2019.01.04 at 15h 53m 46s.xml">
-      <configuration name="test.testAop" configurationId="JUnit" />
+    <history-entry file="test_testAop_(1) - 2019.01.09 at 21h 04m 54s.xml">
+      <configuration name="test.testAop (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testAop - 2019.01.04 at 15h 54m 36s.xml">
-      <configuration name="test.testAop" configurationId="JUnit" />
+    <history-entry file="test_testAop_(1) - 2019.01.09 at 21h 05m 32s.xml">
+      <configuration name="test.testAop (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testAop - 2019.01.04 at 15h 55m 50s.xml">
-      <configuration name="test.testAop" configurationId="JUnit" />
+    <history-entry file="test_testAop_(1) - 2019.01.09 at 21h 05m 37s.xml">
+      <configuration name="test.testAop (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testAop - 2019.01.04 at 16h 20m 14s.xml">
-      <configuration name="test.testAop" configurationId="JUnit" />
+    <history-entry file="test_testAop_(1) - 2019.01.09 at 21h 06m 28s.xml">
+      <configuration name="test.testAop (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testAop - 2019.01.04 at 16h 25m 17s.xml">
-      <configuration name="test.testAop" configurationId="JUnit" />
+    <history-entry file="test_testAop_(1) - 2019.01.09 at 21h 07m 28s.xml">
+      <configuration name="test.testAop (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testAop - 2019.01.04 at 16h 58m 49s.xml">
-      <configuration name="test.testAop" configurationId="JUnit" />
+    <history-entry file="test_testAop_(1) - 2019.01.09 at 21h 08m 16s.xml">
+      <configuration name="test.testAop (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testAop - 2019.01.04 at 17h 01m 19s.xml">
-      <configuration name="test.testAop" configurationId="JUnit" />
+    <history-entry file="test_testAop_(1) - 2019.01.09 at 21h 09m 03s.xml">
+      <configuration name="test.testAop (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="test_testAop - 2019.01.04 at 17h 09m 56s.xml">
-      <configuration name="test.testAop" configurationId="JUnit" />
+    <history-entry file="test_(1) - 2019.01.09 at 21h 09m 13s.xml">
+      <configuration name="test (1)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18994000" />
+    <option name="totallyTimeSpent" value="37308000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32864866" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32792208" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38594595" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38528138" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19722815" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -459,7 +621,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +631,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -529,24 +690,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/MathCal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.1.3.RELEASE/spring-context-5.1.3.RELEASE.jar!/org/springframework/stereotype/Component.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="66" column="43" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HMAC_SHA1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="40" column="163" selection-start-line="40" selection-start-column="163" selection-end-line="40" selection-end-column="163" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -560,17 +724,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/beans-aop.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/ValidaitionAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        <state relative-caret-position="275">
+          <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -579,18 +736,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/MathIml.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="415">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/LoginAop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
+        <state relative-caret-position="440">
+          <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="57" lean-forward="true" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/MathCal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/beans-aop.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/xml/MathCal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/xml/LoginAop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="35" column="63" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/xml/ValidaitionAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/xml/MathIml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/xml/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="16" column="57" lean-forward="true" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/beans-aop-pointcut.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
