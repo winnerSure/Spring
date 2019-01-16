@@ -2,6 +2,7 @@ package spring.aop;
 
 
 import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
@@ -50,4 +51,25 @@ public class LoginAop {
         String methodName = joinPoint.getSignature().getName();  //注意，此处是getSignature不是getClass
         System.out.println("The method "+methodName+" error on: "+e);
     }
+
+//    //环绕通知
+//    @Around("declareJoinPointExpression()")
+//    public Object aroundMethod(ProceedingJoinPoint proceedingJoinPoint){
+//        String methodName = proceedingJoinPoint.getSignature().getName();
+//        Object result = null;
+//        try {
+//            //前置通知
+//            System.out.println("The Method "+methodName+" begin");
+//            //执行
+//            result = proceedingJoinPoint.proceed();
+//            //后置通知
+//            System.out.println("The method "+methodName+" ends with "+result);
+//        } catch (Throwable throwable) {
+//
+////            throwable.printStackTrace();
+//            //异常通知
+//            System.out.println("The method "+methodName+" error on "+throwable);
+//        }
+//        return result;
+//    }
 }

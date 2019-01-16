@@ -1,4 +1,4 @@
-package spring.aop.xml;
+package spring.aopxml;
 
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
@@ -17,7 +17,7 @@ public class test {
         System.out.println(mathIml.getClass().getName());
         int result1 = mathIml.add(2,3);
         System.out.println(result1);
-        int result2 = mathIml.div(6,0);
+        int result2 = mathIml.div(6,1);
         System.out.println(result2);
     }
 }

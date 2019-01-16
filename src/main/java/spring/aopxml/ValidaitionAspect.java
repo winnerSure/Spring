@@ -1,4 +1,4 @@
-package spring.aop.xml;
+package spring.aopxml;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;

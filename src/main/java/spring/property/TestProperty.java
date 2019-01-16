@@ -11,7 +11,7 @@ public class TestProperty {
     @Test
     public void testProperty(){
         ApplicationContext apx = new ClassPathXmlApplicationContext("beans-property.xml");
-        DataSource dataSource = (DataSource) apx.getBean("dataSource1");
+        DataSource dataSource = (DataSource) apx.getBean("dataSource");
         try {
             System.out.println(dataSource.getConnection());
         } catch (SQLException e) {

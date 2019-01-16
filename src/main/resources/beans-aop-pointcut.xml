@@ -3,16 +3,16 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
 
-    <bean id = "mathIml" class="spring.aop.xml.MathIml"/>
+    <bean id = "mathIml" class="spring.aopxml.MathIml"/>
 
     <!--配置切面的bean-->
-    <bean id="loginAop" class="spring.aop.xml.LoginAop"/>
-    <bean id = "validaitionAspect" class="spring.aop.xml.ValidaitionAspect"/>
+    <bean id="loginAop" class="spring.aopxml.LoginAop"/>
+    <bean id = "validaitionAspect" class="spring.aopxml.ValidaitionAspect"/>
 
     <!--配置aop-->
     <aop:config>
         <!--配置切点表达式-->
-        <aop:pointcut id ="pointCut" expression="execution(* spring.aop.xml.MathCal.*(int ,int ))"/>
+        <aop:pointcut id ="pointCut" expression="execution(* spring.aopxml.MathCal.*(int ,int ))"/>
         <!--配置切面及表达式-->
         <aop:aspect ref="loginAop" order="1">
             <aop:before method="beforeMethod" pointcut-ref="pointCut"/>
