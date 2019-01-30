@@ -20,7 +20,7 @@ public class TestJdbc {
 
     {
         apx = new ClassPathXmlApplicationContext("beans-jdbc-property.xml");
-        dataSource = (DataSource) apx.getBean("dataSource");
+        dataSource = (DataSource) apx.getBean("dataSource2");
         jdbcTemplate = (JdbcTemplate) apx.getBean("jdbcTemplate");
     }
 
@@ -53,6 +53,7 @@ public class TestJdbc {
     }
 
     //获取一个对象
+
     @Test
     public void testObject(){
         String sql = "SELECT id,last_name,email from employee WHERE id = ?";

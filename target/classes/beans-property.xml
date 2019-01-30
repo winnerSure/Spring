@@ -22,9 +22,15 @@
         <!--<property name="fileEncoding" value="utf-8"/>-->
     <!--</bean>-->
 
-    <!--配置属性文件:导入资源文件-->
-    <!--<context:property-path path="db.properties"/>-->
+
+    <!--配置属性文件:导入资源文件
+    -->
     <context:property-placeholder location="db.properties"/>
+
+    <!--注意：
+       class不是引用com.mchange.v2.c3p0.ComboPooledDataSource（已过时）
+       而是引用org.springframework.jdbc.datasource.DriverManagerDataSource
+    -->
     <bean id="dataSource1" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="username" value="${user}"/>
         <property name="password" value="${password}"/>
