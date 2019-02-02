@@ -4,7 +4,17 @@ public class Employee {
     private int id;
     private String last_name;
     private String email;
-    private Departments departments;
+
+    public int getDept_id() {
+        return dept_id;
+    }
+
+    public void setDept_id(int dept_id) {
+        this.dept_id = dept_id;
+    }
+
+    private int dept_id;
+//    private Departments departments;
 
     public int getId() {
         return id;
@@ -30,13 +40,14 @@ public class Employee {
         this.email = email;
     }
 
-    public Departments getDepartments() {
-        return departments;
-    }
+//    public Departments getDepartments() {
+//        return departments;
+//    }
+//
+//    public void setDepartments(Departments departments) {
+//        this.departments = departments;
+//    }
 
-    public void setDepartments(Departments departments) {
-        this.departments = departments;
-    }
 
     @Override
     public String toString() {
@@ -44,7 +55,7 @@ public class Employee {
                 "id=" + id +
                 ", last_name='" + last_name + '\'' +
                 ", email='" + email + '\'' +
-                ", departments=" + departments +
+                ", dept_id=" + dept_id +
                 '}';
     }
 }
