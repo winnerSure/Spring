@@ -6,6 +6,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 
+import java.util.HashMap;
 import java.util.List;
 
 @Repository
@@ -20,7 +21,7 @@ public class AdResourceResultDao {
         task：任务id
         date:日期
      */
-    public List<AdResourceResult> selectPlayCountResultWithParam(String code,int task,int date){
+    public List<AdResourceResult> selectPlayCountResultWithParam(String code, int task, int date){
         String sql = "SELECT SUM(A.play_count) as play_count,SUM(A.valid_cpm_play_count) as valid_cpm_play_count,SUM(A.play_sec) as play_sec,A.date_id,A.task_id" +
                 " FROM (" +
                 "SELECT t.media_resource_code,t.play_count,t.valid_cpm_play_count,t.play_sec,t.date_id,t.task_id FROM t_resource_result t" +

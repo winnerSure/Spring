@@ -53,7 +53,11 @@
     <!--2.配置事务属性-->
     <tx:advice id="txAdvice" transaction-manager="transactionManager">
         <tx:attributes>
+            <!--根据方法名指定事务的属性-->
+            <!--REQUIRES_NEW 开启一个新的事务-->
             <tx:method name="purchase" propagation="REQUIRES_NEW"/>
+            <tx:method name="get*" read-only="true"/>
+            <tx:method name="find*" read-only="true"/>
             <tx:method name="*"/>
         </tx:attributes>
     </tx:advice>

@@ -21,6 +21,26 @@ public class Departments {
     }
 
     @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Departments that = (Departments) o;
+
+        if (id != that.id) return false;
+        return dept_name != null ? dept_name.equals(that.dept_name) : that.dept_name == null;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = id;
+        result = 31 * result + (dept_name != null ? dept_name.hashCode() : 0);
+        return result;
+    }
+
+
+
+    @Override
     public String toString() {
         return "Departments{" +
                 "id=" + id +
