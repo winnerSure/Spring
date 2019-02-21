@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:tx="http://www.springframework.org/schema/tx" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+      http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd
+      http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!--xmlns:context="http://www.springframework.org/schema/util"-->
+
+    <!--配置组件扫描目录-->
+    <context:component-scan base-package="spring.transactionxml"/>
+
+    <!--配置数据源-->
+    <context:property-placeholder location="db.properties"/>
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="username" value="${user}"/>
+        <property name="password" value="${password}"/>
+        <property name="driverClassName" value="${driverClass}"/>
+        <property name="url" value="${jdbcUrl}"/>
+    </bean>
+
+    <!--配置jdbcTempalate-->
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+
+    <!--配置bean,不配置时使用@autowire自动注入-->
+    <!--   property 配置为方法里面的属性
+    private ***  ***;
+    例如BookShopServiceImpl方法里的
+     //属性
+    private BookShopDao bookShopDao;-->
+    <bean id="bookShopDao" class="spring.transactionxml.BookShopDaoImpl">
+        <property name="jdbcTemplate" ref="jdbcTemplate"/>
+    </bean>
+
+    <bean id="bookShopService" class="spring.transactionxmlserviceimpl.BookShopServiceImpl">
+        <property name="bookShopDao" ref="bookShopDao"/>
+    </bean>
+
+    <bean id="casherService" class="spring.transactionxmlserviceimpl.CasherServiceImpl">
+        <property name="bookShopService" ref="bookShopService"/>
+    </bean>
+
+    <!--基础xml方式配置事务-->
+    <!--1.配置事务管理器-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!--2.配置事务属性-->
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="purchase" propagation="REQUIRES_NEW"/>
+            <tx:method name="*"/>
+        </tx:attributes>
+    </tx:advice>
+
+    <!--3.配置事务切入点，以及把事务切入点和事务属性关联起来-->
+<aop:config>
+    <aop:pointcut id="txPointCut" expression="execution(* spring.transactionxmlservice.*.*(..))"/>
+    <aop:advisor advice-ref="txAdvice" pointcut-ref="txPointCut"/>
+</aop:config>
+</beans>
